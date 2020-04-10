@@ -35,11 +35,11 @@ Edges have weight associated with them .<br>
 
 ## Types of edges
 1.Undirected Weighted Edges<br>
--A simple network of friends,bi-directional roads.
+-A simple network of friends,bi-directional roads.<br>
 2.Directed Weighted Edges<br>
--One way Distance from one end to another end.
-3.Bi-Directional Weighted Edges
--Flight cost from mumbai to delhi and delhi to mumbai.
+-One way Distance from one end to another end.<br>
+3.Bi-Directional Weighted Edges<br>
+-Flight cost from mumbai to delhi and delhi to mumbai.<br>
 
 ## No of edges in Graph
 1.Complete Graph<br>
