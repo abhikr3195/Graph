@@ -69,7 +69,7 @@ i. It is an graph traversal method.<br>
 ii. It is an iterative approach.<br>
 iii. It uses a Queue to maintain FIFO ordering and another data structure is used to maintain the list of vertices visited so far.<br>
 iv. It is like level-order traversal in binary tree.<br>
-
+For a better understanding check the above bfs ppt.
 PseudoCode
     
     void BFS(int G[][7],int start,int n){
