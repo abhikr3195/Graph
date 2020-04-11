@@ -59,4 +59,42 @@ waste memory 10^6. Takes memory O(v^2).<br>
 We can make a hashmap of key-value pairs or array of linked list. To see the neighbors
 we can simply traverse the linked list which complexity will be less than O(V) and it is
 also memory efficient.<br>
+See adjacentlist.cpp for code related information.<br>
 
+## Graph Traversal
+1. Breadth First Search<br>
+2. Depth First Search<br>
+
+# Breadth First Search
+i. It is an graph traversal method.<br>
+ii. It is an iterative approach.<br>
+iii. It uses a Queue to maintain FIFO ordering and another data structure is used to maintain the list of vertices visited so far.<br>
+iv. It is like level-order traversal in binary tree.<br>
+For a better understanding check the above bfs ppt.
+PseudoCode
+    
+    void BFS(int G[][7],int start,int n){
+     int i=start,j;
+     //Visited vertex array
+     int visited[7]={0};
+     //Source Vertex
+     printf("%d ",i);
+     //Mark visited
+     visited[i]=1;
+     //Push the element in Queue
+      enqueue(i);
+      while(!isEmpty()){
+         //Pop An ELement
+           i=dequeue();
+           //Check for the adjacent vertex of the poped element.
+           //If present and not visited then push it.
+            for(j=1;j<n;j++){
+                if(G[i][j]==1 && visited[j]==0){
+                    printf("%d ",j);
+                    visited[j]=1;
+                    enqueue(j);
+                }
+            }
+        }
+        //If the queue becomes empty then BFS is over.
+    }
