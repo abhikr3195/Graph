@@ -173,7 +173,8 @@ ordering.It works on only Directed Acyclic Graph
     -Algorithm starts from finding vertices with 0 indegree
   
 <br>
-![](topobfs.png)
+
+![](topobfs.png)<br>
 
 Steps:<br>
 - I push all the vertices in queue with 0 indegree.<br>
