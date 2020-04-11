@@ -115,8 +115,8 @@ assigned once you dont need to push it.Check singleSourceShortestpath.cpp
 
 #### Snakes And Ladder Problem
 You are given a board where it contain snakes and ladder.If you climb a stair you
-reach a higher point and bitten by snake then you lower point.You are a given dice
-and you can throw your number choice.Minimum number of dice moves to win the game.
+reach a higher point and if bitten by snake then you reach lower point.You are given a dice
+and you can throw your choice of number.Minimum number of dice moves to win the game.
 <br>
 ![](snakes.png)
 <br>
