@@ -123,3 +123,21 @@ and you can throw your choice of number.Minimum number of dice moves to win the 
 Sample Output
 Min Moves :- 4<br>
 One Possible Shortest Path : 1 ->15->29->30->36<br>
+<br>
+The whole thing can be represented as a graph.So there are 37 vertices.Each Node has
+some neighbour.<br>
+<br>
+So initially we are at zero.If we throw a dice from zero you can reach 1,15,3,4,7,6.
+We reach 15,7 because there is ladder at 2,5 which act as transient point.<br>
+So if we are at one.If we throw a dice from zero you can reach 15,3,4,7,6,8.
+We reach 15,7 because there is ladder at 2,5 which act as transient point.<br>
+From every node v there are some edges which are going to v+1,v+2,v+3...v+6 vertices.<br>
+Since the cost is same for every dice throw and you can only climb up from stair cant
+come back or only move forward so it is unweighted directed graph.<br>
+I am going to make a board array and initialise it zero.And add some exception.<br>
+On reaching 2 we move to 15.On reaching 2 we get a jump of 13.On reaching 5 we move to 7.
+On reaching 5 we get a jump of 2.<br>
+board[2]=13,board[5]=2.<br>
+In case of snake.If we reach 17 then we are bitten by snake and we go to 4.<br>
+board[17]=-13;
+
