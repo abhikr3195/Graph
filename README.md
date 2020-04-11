@@ -100,3 +100,15 @@ PseudoCode
         //If the queue becomes empty then BFS is over.
     }
 
+### Application
+#### Single Source Shortest Path
+Use a queue and a distance array.
+Initialise all the distance to infinity.
+Make the distance of starting node a zero.<br>
+        
+        distance[child]=distance[parent]+1.
+
+So push the source in the queue.And then i pop out this node .
+And push the neighbours which arent visited.Neighbours will be at distance 1.
+Subsequently neighbours are assigned distance.And you can check if a weight is 
+assigned once you dont need to push it.Check singleSourceShortestpath.cpp
