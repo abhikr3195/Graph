@@ -13,3 +13,4 @@ We are talking about a hamiltonian cycle. It means covering all the vertices onc
 
 We can do this by Dynamic Programming using Top-Down Approach.It is an optimization to recursion. We use memoization to avoid overlapping subproblems.And we can use bitmask to keep a record of cities visited so far.  
    
+![](travelling.png)
