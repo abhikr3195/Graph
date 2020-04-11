@@ -100,8 +100,8 @@ PseudoCode
         //If the queue becomes empty then BFS is over.
     }
 
-### Application
-#### Single Source Shortest Path
+## Application
+### Single Source Shortest Path
 Use a queue and a distance array.
 Initialise all the distance to infinity.
 Make the distance of starting node a zero.<br>
@@ -112,3 +112,14 @@ So push the source in the queue.And then i pop out this node .
 And push the neighbours which arent visited.Neighbours will be at distance 1.
 Subsequently neighbours are assigned distance.And you can check if a weight is 
 assigned once you dont need to push it.Check singleSourceShortestpath.cpp
+
+#### Snakes And Ladder Problem
+You are given a board where it contain snakes and ladder.If you climb a stair you
+reach a higher point and bitten by snake then you lower point.You are a given dice
+and you can throw your number choice.Minimum number of dice moves to win the game.
+<br>
+![](snakes.png)
+<br>
+Sample Output
+Min Moves :- 4<br>
+One Possible Shortest Path : 1 ->15->29->30->36<br>
