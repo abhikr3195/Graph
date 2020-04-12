@@ -5,10 +5,12 @@ We use adjacency list to implement graph. Because it is the most efficient metho
 to reprsent graph as it is time efficient.
 
 ### Adjacency List
+
+![](dist.png)<br>
      
     Key(String)   List of Pairs(String,int)
     Kathmandu -> (Pok,4)(Brj,1)
-    Pok       -> (Kal,8)(Brj,2)(Kathmandu,4)
+    Pok       -> (Kal,8)(Brj,2)
     Kal       -> (Pok,8)(Jnk,3)
     Jnk       -> (Kal,3)(Brt,2)
     Brt       -> (Brj,1)(Jnk,2)
