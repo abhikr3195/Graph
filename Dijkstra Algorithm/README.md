@@ -25,5 +25,9 @@ to reprsent graph as it is time efficient.
      
      - Make the distance of source node 0.
      - Make all the distances of nodes infinity except the source.
+     - Pick the nodes with minimum distance and relaxe other
+     - Do this for all vertices 
+     
+### See Dijkstra's.cpp for code
      
     
